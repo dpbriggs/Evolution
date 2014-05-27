@@ -17,6 +17,8 @@ public class Evolution20 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Genome test = new Genome();
+        System.out.println(test.genomeSorted);
     }
     
 }
