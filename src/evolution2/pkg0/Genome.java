@@ -38,10 +38,10 @@ public class Genome {
     }
 
     private void fillBasicGenomeSort() {
-        genomeSorted.put("Glucose", "011011");
-        genomeSorted.put("Cell_Membrane", "110110");
-        genome.add("011011");
-        genome.add("110110");
+        genomeSorted.put(makeConsume("011011"), "Glucose");
+        genomeSorted.put(makeProcess("110110"), "Cell_Membrane");
+        genome.add(makeConsume("011011"));
+        genome.add(makeProcess("110110"));
     }
 
     public String makeConsume(String incompleteGenome) {
