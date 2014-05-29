@@ -19,6 +19,7 @@ public class Evolution20 {
         // TODO code application logic here
         Genome test = new Genome();
         System.out.println(test.genomeSorted);
+        System.out.println(test.returnGenomeName("CAAACT"));
     }
     
 }
